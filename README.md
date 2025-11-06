@@ -1,41 +1,31 @@
-# Website
+# ⚡ Spark Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+> A simple and powerful documentation site built with love 💛
 
-## Installation
+---
 
-```bash
-yarn
-```
+## 🚀 Available Scripts
 
-## Local Development
+In the project directory, you can run:
 
-```bash
-yarn start
-```
+### `npm start`
+Starts the **development server**.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### `npm run build`
+Bundles your website into **static files for production**.
 
-## Build
+### `npm run serve`
+Serves the **built website locally**.
 
-```bash
-yarn build
-```
+### `npm run deploy`
+Publishes the website to **GitHub Pages**.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-## Deployment
+## 🧭 Getting Started
 
-Using SSH:
+We recommend that you begin by typing:
 
 ```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+cd spark-docs
+npm start
